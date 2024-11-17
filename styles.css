@@ -5,19 +5,17 @@
 }
 
 #container::before {
-  content: "Before content"; /* Inserted content before */
+  content: "Before Element"; /* Inserted content before */
   color: #f00;               /* Red color */
   font-size: 20px;           /* Font size 20px */
-  position: absolute;
   top: -20px;                /* Position above the container */
   left: 0;
 }
 
 #container::after {
-  content: "After content";  /* Inserted content after */
+  content: "After Element";  /* Inserted content after */
   color: #f00;               /* Red color */
   font-size: 20px;           /* Font size 20px */
-  position: absolute;
   bottom: -30px;             /* Position below the container */
   left: 0;
 }
